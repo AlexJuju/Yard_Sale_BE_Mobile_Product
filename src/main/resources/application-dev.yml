@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database: postgresql
+  sql:
+    init:
+      mode:
+      platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://surus.db.elephantsql.com:5432/mfzrezki
+    username: mfzrezki
+    password: PPc1KN6eelppCxM_DvesMMlTJsDhz1TQ
+    tomcat:
+      max-wait: 10000
+      max-active: 1
+      test-on-borrow: true
+      max-idle: 1
